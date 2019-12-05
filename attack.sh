@@ -67,7 +67,8 @@ if [$nomor = 5 ] || [ $nomor = 5 ]
 then
 clear
 echo " VirusHp.." | lolcat
-pkg install python git
+pkg install python
+pkg install git
 git clone https://github.com/justahackers/perusak
 cd perusak
 python2 perusak.py
